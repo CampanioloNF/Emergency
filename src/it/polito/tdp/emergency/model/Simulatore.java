@@ -86,7 +86,7 @@ public class Simulatore {
 
 		while (!queue.isEmpty()) {
 			Evento ev = queue.poll();
-//			System.out.println(ev);
+		    System.out.println(ev);
 
 			Paziente p = ev.getPaziente();
 
